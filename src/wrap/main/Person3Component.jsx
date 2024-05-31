@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function person3Component () {
+export default function Person3Component () {
     return (
         <div id='person3'>
             

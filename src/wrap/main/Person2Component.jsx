@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function person1Component () {
+export default function Person2Component () {
     return (
-        <div id='person1'>
+        <div id='person2'>
             
         </div>
     );

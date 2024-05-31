@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function person4Component () {
+export default function Person4Component () {
     return (
         <div id='person4'>
             
