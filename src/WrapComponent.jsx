@@ -6,6 +6,7 @@ import Person1Component from './wrap/main/Person1Component'
 import Person2Component from './wrap/main/Person2Component'
 import Person3Component from './wrap/main/Person3Component'
 import Person4Component from './wrap/main/Person4Component'
+import MainComponent from './wrap/main/MainComponent';
 export default function WrapComponent () {
 
     const [state, setState] = React.useState({
@@ -25,6 +26,7 @@ export default function WrapComponent () {
     return (
         <div id='wrap'>
             <HeaderComponent />
+            <MainComponent />
             <MenuComponent openIntroduce ={openIntroduce} closeIntroduce = {closeIntroduce}/>
             {
                 state.introduce &&
