@@ -1,5 +1,5 @@
 {
-    "person1" : [
+    "main" : [
         {"번호":1, "이미지":"Blue_Monaco.jpg"},
         {"번호":2, "이미지":"Chef's_Nap.jpg"},
         {"번호":3, "이미지":"Nectar.jpg"},

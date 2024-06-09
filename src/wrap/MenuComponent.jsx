@@ -1,17 +1,19 @@
 import React from 'react';
 import './scss/menu.scss'
 
-export default function MenuComponent ({openIntroduce, closeIntroduce, openPerson1}) {
+export default function MenuComponent ({openIntroduce, closeIntroduce, openPerson1, closeMain}) {
 
     const [state, setState] = React.useState({
         openIntroduce : false,
         closeIntroduce : true,
+        closeMain : true,
         font : false
     })
 
     const onClickIntroduce = (e) =>{
         e.preventDefault();
-        openIntroduce()
+        openIntroduce();
+        closeMain()
         setState({
             ...state,
             font:true
@@ -19,6 +21,7 @@ export default function MenuComponent ({openIntroduce, closeIntroduce, openPerso
     }
     const onClickSol = (e) => {
         e.preventDefault();
+        closeMain();
         closeIntroduce()
         openPerson1()
     }

@@ -2,15 +2,13 @@
     width: 200px;
     height: 200px;
     position:fixed;
+    top: 45%;
+    left: 20px;
     font-family: Inter;
     .container{
-        width: auto;
-        height: auto;
-
-        
+        width: 100%;
         .content {
-            width: 300px;
-            height: 100%;
+            width: 100%;
             ul {
                 width: 100%;
                 padding-left: 35px;

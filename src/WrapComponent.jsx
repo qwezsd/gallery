@@ -10,6 +10,7 @@ import MainComponent from './wrap/MainComponent';
 export default function WrapComponent () {
 
     const [state, setState] = React.useState({
+        main : true,
         introduce : false,
         person1 : false
     })
@@ -29,11 +30,16 @@ export default function WrapComponent () {
             introduce : false
         })
     }
+    const closeMain = () => {
+        setState({
+            main:false
+        })
+    }
     return (
         <div id='wrap'>
             <HeaderComponent />
             <MainComponent />
-            <MenuComponent openPerson1 = {openPerson1} openIntroduce ={openIntroduce} closeIntroduce = {closeIntroduce}/>
+            <MenuComponent closeMain = {closeMain} openPerson1 = {openPerson1} openIntroduce ={openIntroduce} closeIntroduce = {closeIntroduce}/>
             {
                 state.introduce &&
             <IntroduceComponent />
