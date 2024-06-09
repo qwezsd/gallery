@@ -19,6 +19,8 @@
                                 position: absolute;
                                 top: 40%;
                                 left: 60%;
+                                transform: translateY(30px);
+                                animation: introOn 0.4s ease-in-out;
                             }
                         }
                         &:nth-child(2) {
@@ -27,7 +29,19 @@
                                 position: absolute;
                                 top: 50%;
                                 left: 20%;
+                                transform: translateY(30px);
+                                animation: introOn 0.4s ease-in-out;
                             }
+                        }
+                    }
+                    @keyframes introOn {
+                        0%   {
+                            opacity: 0;
+                            transform: translateY(0px);
+                        }
+                        100% {
+                            opacity: 1;
+                            transform: translateY(30px);
                         }
                     }
                 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './scss/menu.scss'
 
-export default function MenuComponent ({openIntroduce, closeIntroduce}) {
+export default function MenuComponent ({openIntroduce, closeIntroduce, openPerson1}) {
 
     const [state, setState] = React.useState({
         openIntroduce : false,
@@ -20,6 +20,7 @@ export default function MenuComponent ({openIntroduce, closeIntroduce}) {
     const onClickSol = (e) => {
         e.preventDefault();
         closeIntroduce()
+        openPerson1()
     }
     return (
         <div id='menu'>
