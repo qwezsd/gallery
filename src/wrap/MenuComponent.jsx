@@ -12,8 +12,8 @@ export default function MenuComponent ({openIntroduce, closeIntroduce, openPerso
 
     const onClickIntroduce = (e) =>{
         e.preventDefault();
-        openIntroduce();
         closeMain()
+        openIntroduce();
         setState({
             ...state,
             font:true
