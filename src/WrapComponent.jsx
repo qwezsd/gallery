@@ -7,6 +7,8 @@ import Person2Component from './wrap/main/Person2Component'
 import Person3Component from './wrap/main/Person3Component'
 import Person4Component from './wrap/main/Person4Component'
 import MainComponent from './wrap/MainComponent';
+import './wrap.scss'
+
 export default function WrapComponent () {
 
     const [state, setState] = React.useState({
