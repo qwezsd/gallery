@@ -20,14 +20,14 @@ export default function WrapComponent () {
             introduce : true
         })
     }
-    const openPerson1 = () => {
-        setState({
-            person1 : true
-        })
-    }
     const closeIntroduce = () => {
         setState({
             introduce : false
+        })
+    }
+    const openPerson1 = () => {
+        setState({
+            person1 : true
         })
     }
     const closeMain = () => {
@@ -38,7 +38,9 @@ export default function WrapComponent () {
     return (
         <div id='wrap'>
             <HeaderComponent />
+            {state.main &&
             <MainComponent />
+        }
             <MenuComponent closeMain = {closeMain} openPerson1 = {openPerson1} openIntroduce ={openIntroduce} closeIntroduce = {closeIntroduce}/>
             {
                 state.introduce &&
