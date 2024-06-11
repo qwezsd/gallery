@@ -15,6 +15,8 @@
                 width: 100%;
                 li {
                     width: 100%;&:nth-child(1) {
+                        //이미지 hover하면 살짝 커지고 내용 적는 칸 넣기(참고하는 사이트처럼)
+                        //사진 제목은 이미지 이름이랑 상세 내용은 아무거나... ex, 영어 명언 등
                         img {
                             width: 300px;
                             position: absolute;
