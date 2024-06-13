@@ -1,13 +1,14 @@
 import React from 'react';
 import HeaderComponent from './wrap/HeaderComponent';
 import MenuComponent from './wrap/MenuComponent';
-import IntroduceComponent from './wrap/main/IntroduceComponent';
-import Person1Component from './wrap/main/Person1Component'
-import Person2Component from './wrap/main/Person2Component'
-import Person3Component from './wrap/main/Person3Component'
-import Person4Component from './wrap/main/Person4Component'
+import IntroduceComponent from './wrap/sub/IntroduceComponent';
+import Person1Component from './wrap/sub/Person1Component'
+import Person2Component from './wrap/sub/Person2Component'
+import Person3Component from './wrap/sub/Person3Component'
+import Person4Component from './wrap/sub/Person4Component'
 import MainComponent from './wrap/MainComponent';
 import './wrap.scss'
+import FooterComponent from './wrap/FooterComponent';
 
 export default function WrapComponent () {
 
@@ -55,7 +56,7 @@ export default function WrapComponent () {
             <Person2Component closeIntroduce = {closeIntroduce} />
             <Person3Component closeIntroduce = {closeIntroduce} />
             <Person4Component closeIntroduce = {closeIntroduce} />
-
+            <FooterComponent />
         </div>
     );
 };
