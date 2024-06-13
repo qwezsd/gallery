@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 
 export default function Section2Component () {
-    const [state, setState] = React.state({
+    const [state, setState] = React.useState({
         section2 : []
     })
 
@@ -25,10 +25,13 @@ export default function Section2Component () {
                 <div className="content">
                     <div className="img-box">
                         <ul>
-                            {
-                                <li>
-
+                            {state.section2.map((item, idx)=>{
+                                return(
+                                <li key={item.번호}>
+                                    <img src={`./img/section2/${item.이미지}`} alt="" />
                                 </li>
+                                )
+                            })
                             }
                         </ul>
                     </div>
