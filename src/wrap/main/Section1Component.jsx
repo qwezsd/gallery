@@ -4,16 +4,16 @@ import './scss/section1.scss'
 
 export default function Section1ComPonent () {
     const [state, setState] = React.useState({
-        main:[]
+        section1:[]
     })
 
     axios({
-        url: './data/main.json',
+        url: './data/section1.json',
         method : 'GET'
     })
     .then((res)=>{
         setState({
-            main : res.data.main
+            section1 : res.data.section1
         })
     })
     .catch(((err)=>{
@@ -25,7 +25,7 @@ export default function Section1ComPonent () {
                 <div className="content">
                     <div className="img-box">
                         <ul>
-                            {state.main.map((item, idx)=>{
+                            {state.section1.map((item, idx)=>{
                                 return (
                                 <li key={item.번호}>
                                     <img src={`./img/main/${item.이미지}`} alt="" />
