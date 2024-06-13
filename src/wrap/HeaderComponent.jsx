@@ -7,7 +7,7 @@ export default function HeaderComponent () {
         <div id='header'>
             <div className="container">
                 <div className="title">
-                    <a href="/index"><h1>[title]</h1></a>
+                    <a href="/index"><h1>Love Always</h1></a>
                     
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import './scss/main.scss'
+import './scss/section1.scss'
 
 export default function Section1ComPonent () {
     const [state, setState] = React.useState({
@@ -20,7 +20,7 @@ export default function Section1ComPonent () {
     }))
 
     return (
-        <div id='main'>
+        <div id='section1'>
             <div className="container">
                 <div className="content">
                     <div className="img-box">
