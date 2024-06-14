@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import './scss/section2.scss'
 
 export default function Section2Component () {
     const [state, setState] = React.useState({
