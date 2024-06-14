@@ -25,25 +25,27 @@
                         height: auto;
                         padding: 0px 10px;
                         position: relative;
-                        display: flex; // 컨테이너 높이를 유지하기 위해 flex 사용
-                        align-items: center; // 이미지와 컨테이너를 가운데 정렬
-                        justify-content: center; // 이미지와 컨테이너를 가운데 정렬
                         &:nth-child(1){
                             img {
                                 width: 450px;
-                                max-width: 100%; // 반응형으로 최대 폭 설정
+                                position: absolute;
+                                left:7%;
                             }
                         }
                         &:nth-child(2){
                             img {
                                 width: 450px;
-                                max-width: 100%; // 반응형으로 최대 폭 설정
+                                position: absolute;
+                                top:  300px;
+                                right: 7%;
                             }
                         }
                         &:nth-child(3){
                             img {
                                 width: 480px;
-                                max-width: 100%; // 반응형으로 최대 폭 설정
+                                position: absolute;
+                                left: 12%;
+                                top: 700px;
                             }
                         }
                     }
