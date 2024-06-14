@@ -28,7 +28,7 @@ export default function Section2Component () {
                             {state.section2.map((item, idx)=>{
                                 return(
                                 <li key={item.번호}>
-                                    <img src={`./img/section2/${item.이미지}`} alt="" />
+                                    <img src={`./img/main/section2/${item.이미지}`} alt="" />
                                 </li>
                                 )
                             })

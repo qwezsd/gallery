@@ -6,15 +6,17 @@
         height: 100%;
         .title {
             width: 100%;
-            padding: 35px 0 0 2.5rem;
+            padding: 35px 0 0 3rem;
             a {
                 display: inline-block;
                 width: auto + 100px;
                  h1 {
+                    // font-family: Super Sunday Personal Use;
+                    font-family: Super Sunday Personal Use;
                     font-weight: 500;
                     font-style:italic;
-                    width: auto;
                     letter-spacing: -0.8px;
+                    font-size: 38px;
                 }
             }
         }

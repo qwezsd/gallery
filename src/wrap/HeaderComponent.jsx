@@ -8,7 +8,6 @@ export default function HeaderComponent () {
             <div className="container">
                 <div className="title">
                     <a href="/index"><h1>Love Always</h1></a>
-                    
                 </div>
             </div>
         </div>

@@ -31,10 +31,10 @@ export default function MenuComponent ({openIntroduce, closeIntroduce, openPerso
                 <div className="content">
                     <ul className={state.font ? 'click' : ''}>
                         <li onClick={onClickIntroduce}><h4>Introduce</h4></li>
-                        <li onClick={onClickSol}><h4>가나다</h4></li>
-                        <li><h4>라마바</h4></li>
-                        <li><h4>사아</h4></li>
-                        <li><h4>자차타</h4></li>
+                        <li onClick={onClickSol}><h4>혜정</h4></li>
+                        <li><h4>산</h4></li>
+                        <li><h4>유진</h4></li>
+                        <li><h4>지혜</h4></li>
                     </ul>
                 </div>
             </div>
