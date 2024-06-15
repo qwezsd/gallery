@@ -7,7 +7,7 @@ export default function FooterComponent () {
             <div className="container">
                 <div className="content">
                     <div className="title">
-                        [title]
+                    <a href="/index"><h1>Love Always</h1></a>
                     </div>
                     <ul>
                         <li>

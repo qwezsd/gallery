@@ -1,52 +1,104 @@
 #section2 {
     width: 100%;
-    height: 1650px;
+    height: 100%;
     background-color: #e4e5cc5e;
     .container {
         width: 100%;
-        height: 100%;
-        max-width: 1200px;
+        max-width: 1400px;
         margin: 0 auto;
         .content {
+            margin: 50px 0;
             width: 100%;
             height: 100%;
-            padding: 100px 0;
             .img-box {
                 width: 100%;
-                margin: 40px 0;
-                height: 100%;
+                padding: 40px;
                 ul {
-                    width: 100%;
-                    height: 100%;
+                    width: auto;
+                    display: flex;
                     flex-flow: row wrap;
-                    position: relative;
+                    // li {
+                    //     width: 100%;&:nth-child(1) {
+                    //         //이미지 hover하면 살짝 커지고 내용 적는 칸 넣기(참고하는 사이트처럼)
+                    //         //사진 제목은 이미지 이름이랑 상세 내용은 아무거나... ex, 영어 명언 등
+                    //         img {
+                    //             width: 300px;
+                    //             position: absolute;
+                    //             top: 30%;
+                    //             right: 22%;
+                    //             transform: translateY(30px);
+                    //             animation: introOn 0.4s ease-in-out;
+                    //         }
+                    //     }
+                    //     &:nth-child(2) {
+                    //         img {
+                    //             width: 700px;
+                    //             position: absolute;
+                    //             top: 20%;
+                    //             left: 20%;
+                    //             transform: translateY(30px);
+                    //             animation: introOn 0.4s ease-in-out;
+                    //         }
+                    //     }
+                    //     &:nth-child(3) {
+                    //         img {
+                    //             width: 700px;
+                    //             position: absolute;
+                    //             top: 680px;
+                    //             right: 15%;
+                    //             transform: translateY(30px);
+                    //             animation: introOn 0.4s ease-in-out;
+                    //         }
+                    //     }
+                    //     &:nth-child(4) {
+                    //         img {
+                    //             width: 520px;
+                    //             position: absolute;
+                    //             top: 900px;
+                    //             left: 20%;
+                    //             transform: translateY(30px);
+                    //             animation: introOn 0.4s ease-in-out;
+                    //         }
+                    //     }
+                    // }
                     li {
-                        width: 100%;
-                        height: auto;
-                        padding: 0px 10px;
+                        width: 50%;
+                        padding: 5px;
                         position: relative;
-                        // li 다시 확인해보기
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
                         &:nth-child(1){
                             img {
-                                width: 450px;
+                                width: 470px;
+                                display: flex;
+                                align-items: flex-end;
+                                justify-content: end;
                                 position: absolute;
-                                left:7%;
+                                bottom: 5px;
+                                right: 5px;
                             }
                         }
                         &:nth-child(2){
                             img {
-                                width: 450px;
-                                position: absolute;
-                                top:  300px;
-                                right: 7%;
+                                width: 700px;
                             }
                         }
                         &:nth-child(3){
                             img {
-                                width: 480px;
-                                position: absolute;
-                                left: 12%;
-                                top: 700px;
+                                width: 600px;
+                                display: flex;
+                                // align-items: flex-start;
+                                // justify-content:left;
+                                position: relative;
+                                top: 0;
+                                left: 50px;
+                            }
+                        }
+                        &:nth-child(4){
+                            img {
+                                width: 400px;
                             }
                         }
                     }

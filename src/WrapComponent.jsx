@@ -40,11 +40,11 @@ export default function WrapComponent () {
     }
     return (
         <div id='wrap'>
-            <HeaderComponent />
+            <HeaderComponent closeMain = {closeMain} openPerson1 = {openPerson1} openIntroduce ={openIntroduce} closeIntroduce = {closeIntroduce}/>
             {state.main &&
             <MainComponent />
         }
-            <MenuComponent closeMain = {closeMain} openPerson1 = {openPerson1} openIntroduce ={openIntroduce} closeIntroduce = {closeIntroduce}/>
+            {/* <MenuComponent closeMain = {closeMain} openPerson1 = {openPerson1} openIntroduce ={openIntroduce} closeIntroduce = {closeIntroduce}/> */}
             {
                 state.introduce &&
             <IntroduceComponent />

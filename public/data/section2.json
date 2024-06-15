@@ -1,7 +1,8 @@
 {
     "section2" : [
-        {"번호" : 1, "이미지":"fc5e98f8c6734b9dfdeef91e47b5d602.jpg"},
-        {"번호" : 2, "이미지":"d20a717a93caa49bd80867ed444bdc18.jpg"},
-        {"번호" : 3, "이미지":"0ae5fe96a258b96a2d242933393c404c.jpg"}
+        {"번호":1, "이미지":"Blue_Monaco.jpg"},
+        {"번호":2, "이미지":"Chef's_Nap.jpg"},
+        {"번호":3, "이미지":"Nectar.jpg"},
+        {"번호":4, "이미지":"Petals.jpg"}
     ]
 }
