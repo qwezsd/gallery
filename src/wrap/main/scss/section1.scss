@@ -10,10 +10,11 @@
         .content {
             width: 100%;
             height: 100%;
-            padding: 100px 0;
+            padding: 70px 0 130px 0;
             .img-box {
                 width: auto;
                 height: 100%;
+                margin-bottom: 30px;
                 position: relative;
                 .set_img {
                     width: 100%;
@@ -42,7 +43,6 @@
                             width: 480px;
                         }
                     }
-                    width: 100%;
                 }
             }
         }
