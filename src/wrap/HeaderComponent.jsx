@@ -15,7 +15,7 @@ export default function HeaderComponent ({openIntroduce, closeIntroduce, openPer
         openIntroduce();
         setState({
             ...state,
-            font:true
+            // font:true
         })
     }
     const onClickSol = (e) => {
