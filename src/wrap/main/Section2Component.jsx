@@ -24,7 +24,7 @@ export default function Section2ComPonent () {
             <div className="container">
                 <div className="content">
                     <div className="img-box">
-                        {/* <ul>
+                        <ul>
                             {state.section2.map((item, idx)=>{
                                 return (
                                 <li key={item.번호}>
@@ -33,15 +33,7 @@ export default function Section2ComPonent () {
                                 )
                             })
                             }
-                        </ul> */}
-                        {state.section2.map((item, idx)=>{
-                            return (
-                                <div className="box" key={item.번호}>
-                                    <img src={`./img/main/section2/${item.이미지}`} alt="" />
-                                </div>
-                            )
-                        })
-                        }
+                        </ul>
                     </div>
                 </div>
             </div>
