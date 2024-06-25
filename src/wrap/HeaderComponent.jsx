@@ -6,7 +6,7 @@ export default function HeaderComponent ({openIntroduce, closeIntroduce, openPer
         openIntroduce : false,
         closeIntroduce : true,
         closeMain : true,
-        font : false
+        // font : false
     })
 
     const onClickIntroduce = (e) =>{
