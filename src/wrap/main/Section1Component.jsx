@@ -17,7 +17,6 @@ export default function Section1Component () {
         })
     })
     .catch((err)=>{
-        console.log(err)
     })
     return (
         <div id='section1'>
