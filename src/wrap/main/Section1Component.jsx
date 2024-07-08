@@ -16,8 +16,6 @@ export default function Section1Component () {
             section1 : res.data.section1
         })
     })
-    .catch((err)=>{
-    })
     return (
         <div id='section1'>
             <div className="container">
